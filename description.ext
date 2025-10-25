@@ -1,0 +1,78 @@
+#include "src\includes.hpp"
+#include "requisitions.hpp"
+#include "config\customization.hpp"
+#include "config\tasks.hpp"
+#include "config\projectiles.hpp"
+#include "config\sectors.hpp"
+
+onLoadName = "WarlordsREwork";
+dev = "Jezuro + WSV + Sich + Dzugarka";
+author = "Jezuro + WSV + Sich + Dzugarka";
+allowFunctionsLog = 1;
+zeusCompositionScriptLevel = 2;
+adminIDs[] = {"76561198388512455", "76561199089413134"};
+moderatorIDs[] = {};
+spectatorIDs[] = {};
+sichSponsor50IDs[] = {"76561198038090048","76561198177462017","76561198388512455"};
+sichSponsor20IDs[] = {"76561199123672321","76561199089413134","76561198088869591"};
+sichSponsor10IDs[] = {"76561198044973751","76561198870551967","76561198851811045","76561199170309997","76561198295589697","76561198893851208"};
+sichSponsor5IDs[] = {"76561198157847482"};
+sichSponsor3IDs[] = {"76561198119112806","76561199059201175","76561199390473523","76561199047285672"};
+
+//Settings
+respawn = 3;
+respawnDelay = 30;
+respawnOnStart = -1;
+disabledAI = 1;
+enableDebugConsole = 1;
+ReviveMode = 0;
+
+corpseManagerMode = 1;
+corpseLimit = 50;        //72
+corpseRemovalMinTime = 30;    //300
+corpseRemovalMaxTime = 300;    //1800
+
+wreckManagerMode = 1;
+wreckLimit = 32;        //16
+wreckRemovalMinTime = 30;    //300
+wreckRemovalMaxTime = 300;    //600
+
+weaponholderManagerMode = 1; //2
+weaponholderLimit = 50; //50
+weaponholderRemovalMinTime = 30; //3600
+weaponholderRemovalMaxTime = 180; //36000
+
+disposalCheckPeriod = 20;
+minPlayerDistance[] = {150, 300, 075, 0600, 1800, 0300};
+
+BIS_WL_sectorResetTimeout = 300;
+BIS_WL_sectorVotingDuration = 30;
+
+BIS_WL_scanCost = 750;
+BIS_WL_fastTravelCostContested = 200;
+WL_airAssaultCost = 100;
+WL_vehicleParadropCost = 1000;
+BIS_WL_fastTravelCostSquadLeader = 10;
+BIS_WL_fundsTransferCost = 2000;
+BIS_WL_targetResetCost = 500;
+BIS_WL_maxCP = 50000;
+BIS_WL_arsenalCost = 1000;
+BIS_WL_assetLimit = 14;
+BIS_WL_scanCooldown = 300;
+BIS_WL_lastLoadoutCost = 100;
+BIS_WL_savedLoadoutCost = 500;
+BIS_WL_baseValue = 350;
+BIS_WL_autonomous_limit = 4;
+BIS_WL_minAPSDist = 1000; //actual range = √x
+BIS_WL_maxAPSDist = 1200; //actual range = √x
+WL2_MinBaseDistance = 5;
+WL2_MaxInfantrys = 6;
+
+onPauseScript[] = {WL2_fnc_onPause};
+
+class Header
+{
+	gameType = Warlords;
+	minPlayers = 1;
+	maxPlayers = 128;
+};

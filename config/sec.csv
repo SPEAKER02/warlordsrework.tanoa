@@ -1,0 +1,75 @@
+id,name,x,y,areaX,areaY,angle,isRect,disableHome,services,connections
+LaRachelleAerodrome,La Rachelle Aerodrom,11815.5,13101.7,450,160,15,1,1,"W,A,H","BluePearIndustrialPort,Nasua"
+BluePearIndustrialPort,Blue Pear industrial port,13572.7,11987.7,500,550,10,0,1,"W,H","Vatukoulo,RaviTaIsland"
+CommsBravo,Comms Bravo,11070.7,11503.9,320,150,0,0,1,H,"Nasua,CommsAlpha"
+CommsAlpha,Comms Alpha,10098.4,11780.8,120,200,0,0,0,,Nasua
+RaviTaIsland,Ravi-ta Island,12739.7,14080.2,300,140,25,0,0,W,LaRachelleAerodrome
+LaRochelle,La Rochelle,9405.7,13557.9,800,350,7,0,0,W,"LaRachelleAerodrome,CommsAlpha,Galili"
+Nasua,Nasua,11375.7,12329,200,200,0,0,0,,
+Vatukoulo,Vatukoulo,14024.9,9974.2,100,75,9,1,0,,RedSpringSurfaceMine
+Tanouka,Tanouka,8669.3,10230.9,500,200,14,1,0,,
+Imone,Imone,10523.5,10558,218,170,0,1,0,,"Tanouka,CommsAlpha,CommsBravo"
+RedSpringSurfaceMine,Red Spring surface mine,11823.6,10153.8,260,200,0,1,0,,Imone
+UserNeOk,FuryOK,11202.2,14462.2,360,190,18,0,0,W,"LaRachelleAerodrome,RaviTaIsland,LaRochelle"
+ShinaMontazh,Shina montazh,7764.7,14839.1,325,215,6,0,0,W,"UserNeOk,LaRochelle"
+NorthLumberyard,North Lumberyard,8850.6,11907.5,250,210,4,0,0,,"LaRochelle,Galili,Tanouka"
+Galili,Galili,8247.5,11982.4,235,220,16,1,1,H,"LaRochelle,NorthLumberyard,Tanouka"
+Nicolet,Nicolet,6351.2,12802.4,98,150,140,1,0,W,LaRochelle
+Vagalala,Vagalala,11014.5,9699.4,190,191,17,1,0,,"RedSpringSurfaceMine,Imone,Tanouka"
+SaintJulien,Saint-Julien,5873.9,11037,270,210,150,0,0,,"Nicolet,Galili,Tanouka"
+Orbit,Yizh pyi zhui Orbit,5432.2,11196.3,210,150,140,1,1,H,"Nicolet,SaintJulien"
+Gorgetown,Gorgetown,5821.6,10306.7,315,523,14,1,0,W,"Orbit,SaintJulien"
+Nandai,Nandai,14418.8,8867.6,119,120,0,1,0,W,Vatukoulo
+NapoLionChIk,Sexporn,12206.9,8137.8,95,160,16,1,1,H,"Nandai,Vagalala"
+Oumere,Oumere,12792.8,7259,92,260,12,1,0,W,"Nandai,NapoLionChIk"
+Plantation,Plantation,11076.8,7906.9,154,84,10,1,0,,NapoLionChIk
+Lakatoro,Lakatoro,9284.5,8668.9,300,120,10,0,0,,"Plantation,Vagalala"
+SouthLumberyard,South Lumberyard,9426.7,7521.3,200,180,345,0,0,,"Lakatoro,Plantation"
+Kotomo,Kotomo,10896.3,6289.4,298,220,11,0,0,W,"Oumere,SouthLumberyard"
+Lami,Lami,7966.2,7608.1,170,258,0,1,1,H,SouthLumberyard
+Lifou,Lifou,7245.9,7972.2,239,185,9,0,0,,Lami
+DieselPowerPlant,Diesel power plant,7459,8502.5,240,205,310,1,0,,"Lifou,Lami,Lakatoro,Tanouka"
+AeroportDeTanoa,Aeroport de Tanoa,7039.1,7352.7,208,415,169,1,1,"W,A,H","Lami,Lifou"
+Lobaka,Lobaka,6062.5,8616.3,160,285,7,1,0,,"Gorgetown,DieselPowerPlant,AeroportDeTanoa,Lifou"
+Regina,Regina,5098.4,8704.5,420,302,351,0,0,,"Lobaka,Gorgetown"
+SosovuIsland,Sosovu island,2686.2,9190.3,346,476,357,0,0,W,Regina
+IleSainteMarine,Ile Sainte Marine,5414.1,14577.2,250,210,0,0,0,W,ShinaMontazh
+CampRemnants,Camp remnants,3813.1,13918.5,285,195,50,0,0,W,IleSainteMarine
+GSMStation,GSM station,2961.3,13075.8,120,115,0,1,0,,CampRemnants
+TuvakanaAirbase,TuvakanaAirbase,2096.5,13183.6,295,485,50,1,1,"A,H","GSMStation,CampRemnants"
+CommsWhiskey,Comms Whiskey,2691.1,12314.5,156,150,35,0,1,H,"TuvakanaAirbase,GSMStation"
+Tuvanaka,Tuvanaka,1820.5,11961.7,212,350,162,1,0,W,"CommsWhiskey,TuvakanaAirbase"
+HarborRemnants,Harbor remnants,4148.7,11711.7,220,165,340,0,0,W,"CampRemnants,GSMStation,Orbit"
+Belfort,Belfort,3064.4,11135.4,140,318,0,1,0,W,"HarborRemnants,GSMStation"
+Nani,Nani,1959.5,10672.3,120,145,6,0,0,W,"Tuvanaka,Belfort,SosovuIsland"
+IleDouen,Ile Douen,850.8,11287.1,290,339,350,0,0,W,"Nani,Tuvanaka,SosovuIsland"
+Leqa,Leqa,2366.3,8167.1,130,130,0,1,0,W,SosovuIsland
+Muaceba,Muaceba,1589.7,8495.6,130,110,45,0,0,W,"Leqa,SosovuIsland"
+Tavu,Tavu,951.8,7696.9,150,280,42,1,0,W,"IleDouen,Muaceba,Koumac"
+Balavu,Balavu,2608,7327.8,336,255,16,1,0,W,Leqa
+TGirlHome,Tgirl home,1933.9,6496.9,130,110,78,1,1,H,"Balavu,Tavu"
+Laikoro,Laikoro,1710.8,6121.4,160,210,350,1,0,W,"Tavu,TGirlHome"
+Namuvaka,Namuvaka,2779.1,5708.5,160,140,20,0,0,W,"Laikoro,TGirlHome"
+Rautake,Rautake,3413.2,6711,160,360,35,1,0,W,"Namuvaka,Balavu"
+Cerebu,Cerebu,2168.7,4584.2,110,220,3,0,0,W,Namuvaka
+Koumac,Koumac,1363.9,2992.9,519,300,0,0,1,W,Cerebu
+BaraAirstrip,Bara Airstrip,2198.2,3506.2,490,200,345,1,1,"A,H","Koumac,Cerebu"
+Yanukka,Yanukka,3096.9,3385.2,290,150,3,1,0,W,"Cerebu,BaraAirstrip"
+Lailai,Lailai,3645.9,2172.6,260,210,6,0,0,,"Yanukka,BaraAirstrip"
+Katkoula,Katkoula,5493.4,4056,320,290,310,1,0,W,"Lailai,Yanukka"
+Volodumurivka,Volodumurivka,5078.5,5081.3,180,120,30,0,1,H,"Rautake,Namuvaka,Katkoula"
+Savaka,Savaka,7107.4,4177.8,310,250,4,0,0,W,"Katkoula,Volodumurivka"
+LaFoa,La Foa,8967.5,4711.4,160,60,315,1,0,W,Savaka
+Tobakora,Tobakora,8889,3630.5,350,120,50,1,0,W,"LaFoa,Savaka"
+Moddergrat,Moddergrat,9410,4015,190,310,16,1,0,W,"LaFoa,Tobakora"
+Blerick,Blerick,10358.5,2659.1,130,140,20,1,0,W,"Tobakora,Moddergrat"
+Harcourt,Harcourt,11247.1,5233.1,310,230,170,1,0,W,"Moddergrat,Kotomo"
+DodikBossKFC,Dodik boss KFC,11297.1,1797.8,250,250,0,0,0,W,Blerick
+SaintGeorgeAirstrip,Saint-George Airstrip,11732.8,3238.3,460,200,35,1,1,"A,H","Blerick,Harcourt"
+Lijnhaven,Lijnhaven,11625.5,2649.4,210,330,0,0,1,W,"SaintGeorgeAirstrip,Blerick,DodikBossKFC"
+Rereki,Rereki,12991.7,2120,210,120,135,1,0,W,"DodikBossKFC,Lijnhaven"
+BuaBua,Bua Bua,13287.8,2969.8,220,135,0,0,0,,Rereki
+Dootstil,Rereki,12810.3,4776.2,254,220,0,1,0,W,"Harcourt,SaintGeorgeAirstrip"
+IleSainteGeorge,Ile Sainte-George,13418.4,5171.3,240,350,25,0,1,W,"BuaBua,Dootstil,Nandai"
+TuaduaIsland,Tuadua Island,8460.8,1333.3,310,530,112,0,0,W,DodikBossKFC
+ImuriIsland,Imuri Island,1669,872,340,210,0,0,0,W,"Koumac,TuaduaIsland"

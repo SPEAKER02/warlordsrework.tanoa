@@ -1,0 +1,1 @@
+_this call WL2_fnc_onPlayerRespawn;

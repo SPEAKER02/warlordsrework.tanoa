@@ -1,0 +1,28 @@
+private _sectorsWithRunways = BIS_WL_allSectors select {
+	private _services = _x getVariable ["WL2_services", []];
+	"A" in _services;
+};
+
+if (count _sectorsWithRunways > 0) then {
+	{
+		private _class = _x;
+		private _runwayPos = getArray (_class >> "ilsPosition");
+
+		{
+			if (_x isEqualType "") then {_runwayPos set [_forEachIndex, parseNumber _x]};
+		} forEach _runwayPos;
+
+		if (count _runwayPos > 0) then {
+			private _taxiInArr = getArray (_class >> "ilsTaxiIn");
+			private _spawnPosArr = [];
+			_taxiInArrCnt = count _taxiInArr;
+
+			for [{_i = 0}, {_i <= (_taxiInArrCnt - 1)}, {_i = _i + 2}] do {
+				_spawnPosArr pushBack [_taxiInArr # _i, _taxiInArr # (_i + 1), 0];
+			};
+
+			private _sectorsWithRunwaysSorted = [_sectorsWithRunways, [], {_x distance2D _runwayPos}, "ASCEND"] call BIS_fnc_sortBy;
+			(_sectorsWithRunwaysSorted # 0) setVariable ["BIS_WL_runwaySpawnPosArr", _spawnPosArr];
+		};
+	} forEach ([configFile >> "CfgWorlds" >> worldName] + ("true" configClasses (configFile >> "CfgWorlds" >> worldName >> "SecondaryAirports")));
+};
