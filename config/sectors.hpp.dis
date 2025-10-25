@@ -1,0 +1,131 @@
+class CfgWarlordSectors {
+    connections[] = {
+        {"LaRachelleAerodrome", "BluePearIndustrialPort"},
+        {"LaRachelleAerodrome", "Nasua"},
+        {"Nasua", "CommsBravo"},
+        {"Nasua", "CommsAlpha"},
+        {"CommsAlpha", "CommsBravo"},
+        {"CommsAlpha", "Tanouka"},
+        {"CommsBravo", "Tanouka"},
+        {"BluePearIndustrialPort", "Vatukoulo"},
+    };
+
+    // class AACAirfield {
+    //     area[] = {300, 150, 121.177, 1};
+    //     disableHome = 1;
+    //     location[] = {11522.6, 11725.7, 0};
+    //     name = "AAC Airfield";
+    //     services[] = {"W", "A", "H"};
+    // };
+    //
+    // class Abdera {
+    //     area[] = {100, 110, 77.82, 1};
+    //     location[] = {9439.2, 20249.5, 0};
+    //     name = "Abdera";
+    // };
+    //
+	class LaRachelleAerodrome {
+		area[] = {450, 130, 15.000, 1};
+		disableHome = 1;
+		location[] = {11815.5, 13101.7, 0};
+		name = "La Rachelle Aerodrom";
+		services[] = {"W", "A", "H"};
+	};
+
+	class BluePearIndustrialPort {
+		area[] = {200, 150, 0.000, 0};
+		location[] = {13572.7, 11987.7, 0};
+		name = "Blue Pear industrial port";
+		services[] = {"W"};
+	};
+	class CommsBravo {
+		area[] = {150, 150, 0.000, 0};
+		disableHome = 1;
+		location[] = {11070.7, 11503.9, 0};
+		name = "Comms Bravo";
+		services[] = {"H"};
+	};
+	class CommsAlpha {
+		area[] = {150, 150, 0.000, 0};
+		location[] = {10127.0, 11782.2, 0};
+		name = "Comms Alpha";
+	};
+	class Tanouka {
+		area[] = {150, 150, 0.000, 0};
+		location[] = {9019.2, 10189.1, 0};
+		name = "Tanouka";
+	};
+	class Vatukoulo {
+		area[] = {150, 150, 40.000, 1};
+		location[] = {14057.4, 9964.5, 0};
+		name = "Vatukoulo";
+	};
+	class Nasua {
+		area[] = {150, 150, 40.000, 1};
+		location[] = {11354.2, 12307.9, 0};
+		name = "Nasua";
+	};
+	// class LaRachelleAerodrome {
+	// 	area[] = {200, 150, 40.000, 1};
+	// 	disableHome = 1;
+	// 	location[] = {11746.0, 13133.0, 0};
+	// 	name = "La Rachelle Aerodrom";
+	// 	services[] = {"W", "A", "H"};
+	// };
+	// class LaRachelleAerodrome {
+	// 	area[] = {200, 150, 40.000, 1};
+	// 	disableHome = 1;
+	// 	location[] = {11746.0, 13133.0, 0};
+	// 	name = "La Rachelle Aerodrom";
+	// 	services[] = {"W", "A", "H"};
+	// };
+	// class LaRachelleAerodrome {
+	// 	area[] = {200, 150, 40.000, 1};
+	// 	disableHome = 1;
+	// 	location[] = {11746.0, 13133.0, 0};
+	// 	name = "La Rachelle Aerodrom";
+	// 	services[] = {"W", "A", "H"};
+	// };
+	// class LaRachelleAerodrome {
+	// 	area[] = {200, 150, 40.000, 1};
+	// 	disableHome = 1;
+	// 	location[] = {11746.0, 13133.0, 0};
+	// 	name = "La Rachelle Aerodrom";
+	// 	services[] = {"W", "A", "H"};
+	// };
+	// class LaRachelleAerodrome {
+	// 	area[] = {200, 150, 40.000, 1};
+	// 	disableHome = 1;
+	// 	location[] = {11746.0, 13133.0, 0};
+	// 	name = "La Rachelle Aerodrom";
+	// 	services[] = {"W", "A", "H"};
+	// };
+	// class LaRachelleAerodrome {
+	// 	area[] = {200, 150, 40.000, 1};
+	// 	disableHome = 1;
+	// 	location[] = {11746.0, 13133.0, 0};
+	// 	name = "La Rachelle Aerodrom";
+	// 	services[] = {"W", "A", "H"};
+	// };
+	// class LaRachelleAerodrome {
+	// 	area[] = {200, 150, 40.000, 1};
+	// 	disableHome = 1;
+	// 	location[] = {11746.0, 13133.0, 0};
+	// 	name = "La Rachelle Aerodrom";
+	// 	services[] = {"W", "A", "H"};
+	// };
+	// class LaRachelleAerodrome {
+	// 	area[] = {200, 150, 40.000, 1};
+	// 	disableHome = 1;
+	// 	location[] = {11746.0, 13133.0, 0};
+	// 	name = "La Rachelle Aerodrom";
+	// 	services[] = {"W", "A", "H"};
+	// };
+	// class LaRachelleAerodrome {
+	// 	area[] = {200, 150, 40.000, 1};
+	// 	disableHome = 1;
+	// 	location[] = {11746.0, 13133.0, 0};
+	// 	name = "La Rachelle Aerodrom";
+	// 	services[] = {"W", "A", "H"};
+	// };
+};
