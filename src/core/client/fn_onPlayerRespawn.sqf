@@ -25,6 +25,12 @@ if !(_ownedVehicles isEqualTo _newOwnedVehicles) then {
 	missionNamespace setVariable [_ownedVehiclesVar, _newOwnedVehicles, [2, clientOwner]];
 };
 
+#if WL_TEST_MODE
+player addAction [
+	"+$10K",
+	{[player, "10K"] remoteExec ["WL2_fnc_handleClientRequest", 2];}
+];
+#endif
 
 0 spawn WL2_fnc_reviveAction;
 

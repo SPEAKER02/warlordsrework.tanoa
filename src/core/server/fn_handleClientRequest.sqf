@@ -277,6 +277,10 @@ if (_action == "repair") exitWith {
 	};
 };
 
+if (_action == "10K") exitWith {
+	[10000, _uid] call WL2_fnc_fundsDatabaseWrite;
+};
+
 if (_action == "controlCollaborator") exitWith {
 	private _cost = 2000;
 	private _hasFunds = _playerFunds >= _cost;

@@ -221,6 +221,13 @@ if (_ret) then {
 				[WL2_fnc_checkStrongholdFT]
 			]
 		};
+		case "BuyBunker": {
+			[
+				[WL2_fnc_checkPlayerInVehicle],
+				[WL2_fnc_checkNearbyEnemies],
+				[WL2_fnc_checkInFriendlySector, [-1, []]]
+			]
+		};
 		case "BuyFOB": {
 			[
 				[WL2_fnc_checkPlayerInVehicle],

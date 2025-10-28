@@ -132,7 +132,7 @@ private _purchaseable = [];
 
 				private _linked = getArray (_class >> "linkedItems");
 				if (count _linked > 0) then {
-					_infText = format ["%1%2<br/>", _infText, getText (configFile >> "CfgWeapons" >> _linked # 0 >> "displayName")];
+_infText = format ["%1%2<br/>", _infText, getText (configFile >> "CfgWeapons" >> _linked # 0 >> "displayName")];
 				};
 
 				private _backpack = getText (_class >> "backpack");

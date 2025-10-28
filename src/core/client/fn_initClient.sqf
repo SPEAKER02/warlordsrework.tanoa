@@ -285,6 +285,32 @@ WL_LoadingState = 12;
 	};
 };
 
+#if WL_TEST_MODE
+player addAction [
+	"+$10K",
+	{
+		[player, "10K"] remoteExec ["WL2_fnc_handleClientRequest", 2];
+	}
+];
+/*
+0 spawn {
+	uiSleep 10;
+	["Play Tester", true] call RWD_fnc_addBadge;
+};
+
+{
+	private _curator = _x;
+	_curator addEventHandler ["CuratorObjectPlaced", {
+		params ["_curator", "_entity"];
+		[_entity] call WL2_fnc_newAssetHandle;
+		{
+			[_x] call WL2_fnc_newAssetHandle;
+		} forEach (crew _entity);
+	}];
+} forEach allCurators;
+*/
+#endif
+
 0 spawn {
 	while { !BIS_WL_missionEnd } do {
 		sleep 1;
