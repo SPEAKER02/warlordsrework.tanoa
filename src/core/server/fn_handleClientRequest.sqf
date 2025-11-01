@@ -123,7 +123,7 @@ if (_action == "savedLoadout") exitWith {
 		["apply"] remoteExec ["WL2_fnc_orderSavedLoadout", remoteExecutedOwner];
 	};
 };
-
+/*
 if (_action == "orderArsenal") exitWith {
 	_cost = (getMissionConfigValue ["BIS_WL_arsenalCost", 1000]);
 	_hasFunds = (_playerFunds >= _cost);
@@ -132,7 +132,7 @@ if (_action == "orderArsenal") exitWith {
 		0 remoteExec ["WL2_fnc_orderArsenal", remoteExecutedOwner];
 	};
 };
-
+*/
 if (_action == "fastTravelContested") exitWith {
 	_cost = _param1;
 	_hasFunds = (_playerFunds >= _cost);
