@@ -1,18 +1,25 @@
 class SectorDefense {
-	class Land_HBarrier_01_tower_green_F {
+  class Land_Cargo_House_V4_F {
 		cost = 350;
 		demolishable = 1;
 		killReward = 450;
-		offset[] = {0, 5, 0};
+		offset[] = {0, 15, 0};
 		requirements[] = {};
 	}; // Fast Travel build
-	class Land_Razorwire_F {
+    class Land_Razorwire_F {
         cost = 50;
         demolishable = 1;
         killReward = 30;
         offset[] = {0, 5, 0};
         requirements[] = {};
-    }; // "Razor Wire Fence"
+    };  // "Razor Wire Fence"
+  class Land_SCF_01_storageBin_medium_F {
+    cost = 200;
+		demolishable = 1;
+    killReward = 3500;
+    offset[] = {0, 15, 0};
+    requirements[] = {};
+  }; // Heli land pod
 
     class Land_BagFence_Round_F {
         cost = 50;
