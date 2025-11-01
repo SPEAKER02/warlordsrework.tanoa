@@ -24,14 +24,14 @@ private _purchaseable = [];
 			];
 		};
 		case "Gear": {
-			_categoryData pushBack [
+			/*_categoryData pushBack [
 				"Arsenal",
 				getMissionConfigValue ["BIS_WL_arsenalCost", 1000],
 				[],
 				localize "STR_A3_Arsenal",
 				"\A3\Data_F_Warlords\Data\preview_arsenal.jpg",
 				localize "STR_A3_WL_arsenal_open"
-			];
+			];*/
 			_categoryData pushBack [
 				"Customization",
 				0,
