@@ -406,6 +406,11 @@ if (_asset isKindOf "Man") then {
 		};
 	};
 
+  
+  if (typeOf _asset == "C_IDAP_CargoNet_01_supplies_F") then {
+    [_asset] remoteExec ["WL2_fnc_orderArsenalAction", 0, true];
+  };
+
 	if (getNumber (configFile >> "CfgVehicles" >> typeOf _asset >> "transportAmmo") > 0) then {
 		[_asset, 0] remoteExec ["setAmmoCargo", 0];
 		_amount = 10000;
