@@ -6,7 +6,7 @@
 	[  
 	["Вiтання!", "<t align = 'center' shadow = '1' size = '0.7' font='PuristaBold'>%1</t><br/>"],
 	["Warlords зараз кардинально змiнив свойе направлення в грi", "<t align = 'center' shadow = '1' size = '0.7' font='PuristaBold'>%1</t><br/>"],
-	["Покищо це тестовий варiант мiссiйi", "<t align = 'center' shadow = '1' size = '0.7' font='PuristaBold'>%1</t><br/>"],
+	["Покищо це тестовий варiант мiсiйi", "<t align = 'center' shadow = '1' size = '0.7' font='PuristaBold'>%1</t><br/>"],
 	["Основнi змiни можете глянути на правiй частинi карти", "<t align = 'center' shadow = '1' size = '0.7' font='PuristaBold'>%1</t><br/>"],  
 	["Дотримуйтесь правил та будьте чемними", "<t align = 'center' shadow = '1' size = '0.7' font='PuristaBold'>%1</t><br/>"],  
 	["I не будьте багоюзними пiдарасами:)", "<t align = 'center' shadow = '1' size = '0.7' font='PuristaBold'>%1</t><br/>"]  
