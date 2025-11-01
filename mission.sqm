@@ -8,7 +8,7 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=3039;
+		nextID=3040;
 	};
 	class MarkerIDProvider
 	{
@@ -99,7 +99,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=144;
+		items=145;
 		class Item0
 		{
 			dataType="Group";
@@ -8227,7 +8227,7 @@ class Mission
 			dataType="Marker";
 			position[]={15563.798,-0.046,14931.847};
 			name="marker_90";
-			text="Телепортування можливе тільки з допомогою Taru medical/Hurron, Bunker та вантажівок";
+			text="Телепортування можливе тільки з допомогою Taru medical/Hurron, House та вантажівок";
 			type="mil_dot";
 			colorName="ColorWhite";
 			id=3026;
@@ -8353,6 +8353,17 @@ class Mission
 			colorName="ColorGrey";
 			id=3038;
 			atlOffset=62.757359;
+		};
+		class Item144
+		{
+			dataType="Marker";
+			position[]={15570.54,0.206,14053.961};
+			name="marker_102";
+			text="Арсенал доступний тільки через NATO/CSAT Arsenal Crate в gear та може використуватись безліч разів";
+			type="mil_dot";
+			colorName="ColorWhite";
+			id=3039;
+			atlOffset=61.900631;
 		};
 	};
 };
