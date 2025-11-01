@@ -180,7 +180,7 @@ private _spawnVehicleTypes = createHashMapFromArray [
     ["B_Truck_01_flatbed_F", true],
     ["B_Heli_Transport_03_F", true],
 
-    ["Land_HBarrier_01_tower_green_F", true],
+    ["Land_Cargo_House_V4_F", true],
 
     ["O_Truck_03_medical_F", true],
     ["O_Truck_03_transport_F", true],
