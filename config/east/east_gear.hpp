@@ -37,6 +37,17 @@ class Gear {
         requirements[] = {};
     };
 
+    class B_Cargo_Arssenal {
+        cost = 3500;
+        demolishable = 1;
+        description = "Supply thet gaing acces to Arsenal";
+        killReward = 2000;
+        loadable[] = {0, -0.4, 0.5};
+        name = "CSAT Arsenal Crate";
+        offset[] = {0, 3, 0};
+        spawn = "C_IDAP_CargoNet_01_supplies_F";
+        requirements[] = {};
+    };
     class Box_East_AmmoVeh_F {
         cost = 250;
         killReward = 70;
