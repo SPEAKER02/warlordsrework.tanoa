@@ -197,6 +197,7 @@ class CfgFunctions {
 			class jammerToggle {};
 			class jammerUpdate {};
 			class logisticsAddAction {};
+      class orderArsenalAction {};
 			class parachuteAction {};
 			class parachuteSetup {};
 			class radarOperateAction {};
